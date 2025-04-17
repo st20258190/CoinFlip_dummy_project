@@ -441,3 +441,110 @@ main {
   height: auto;
 }
 
+.newsteller{
+  background: linear-gradient(to right, #000000, #1A1B23);
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.newsteller_container{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.newsteller_container h3{
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.newsteller_container a{
+  color: #ffffff;
+}
+
+.newsteller_form{
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  padding: 20px;
+  position: relative;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #18C8FF, 0 0 0 2px #933FFE;
+  margin-top: 20px;
+}
+
+.newsteller_form input{
+  padding: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;            /* removes the border */
+  outline: none;
+  font-size: 1em;
+}
+
+.newsteller_form input::placeholder{
+  color: #4c4d53;
+  opacity: 1;
+}
+
+.newsteller_form button{
+  
+  background-color: transparent;
+  border: none;            /* removes the border */
+  outline: none;
+}
+
+.newsteller_form button i{
+  font-size: 1.5em;
+  color: #4c4d53;
+  transition: all 0.3s ease;
+}
+
+.newsteller_form button:hover i {
+  color: #933FFE;
+  transform: translateX(3px);
+}
+
+footer{
+  background: linear-gradient(to right,#162441,#0d2019,#000000, #1A1B23);
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+footer .footer_container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+footer .column_1,
+footer .column_2,
+footer .column_3{
+  display: flex;
+  flex-flow: column;
+  gap: 1.5rem;
+
+}
+
+footer .column_1{
+  padding-left: 50px;
+  text-align:left;
+}
+
+.column_1 p{
+  width: 60%;
+}
+
+
+footer .footer_form{
+  width: 50%;
+  padding: 10px;
+}
+
+
+
+
